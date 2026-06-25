@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    font-family:'Poppins', sans-serif;
+
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.judul{
+    font-family:'Fredoka', sans-serif;
+    font-size:38px;
+    font-weight:700;
+    color:#FF8C42;
+    text-align:center;
+    margin:25px 0;
+    text-shadow:1px 1px 5px rgba(0,0,0,0.2);
+}
+
+#map{
+    width:95%;
+    height:600px;
+    margin:auto;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.3);
+}
+
+.popup-title{
+    font-family: 'Fredoka', san-serif;
+    font-size:22px;
+    font-weight:700;
+    color:#E67E22;
+    margin-bottom:2px;
+    line-height:1.2;
+}
+.popup-category{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 8px;
+    line-height:1.2;
+}
+
+.popup-content{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.4;
+}
